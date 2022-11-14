@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  border: 1px solid red;
+  width: 50%;
+  margin: auto;
+  
+}
+.in{
+  display: flex;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  gap: 10px;
+  height: 50px;
+}
+ .in2{
+  /* border: none; */
+  background-color: aquamarine;
+  /* font-size: 30px; */
+  border-radius: 50%;
+ }

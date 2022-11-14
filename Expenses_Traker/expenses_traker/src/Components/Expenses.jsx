@@ -49,8 +49,8 @@ const Expensis = () => {
     setdate("");
   };
 
-  let del = (es) => {
-    fetch(`http://localhost:8080/data/${es}`, {
+  let del = (id) => {
+    fetch(`http://localhost:8080/data/${id}`, {
       method: "DELETE",
     });
     getdata("http://localhost:8080/data");
@@ -58,7 +58,7 @@ const Expensis = () => {
   };
 
   return (
-    <div>
+    <div> 
       <form onSubmit={handelsubmit}>
         <input onChange={Handelchange} value={titel} placeholder="Add Title" />
         <br></br>
